@@ -11,3 +11,15 @@ git clone https://github.com/Cardinal-AOSP/hardware_qcom_media -b oreo-mr1-caf-8
 git clone https://github.com/Cardinal-AOSP/hardware_qcom_display -b oreo-mr1-caf-8952 hardware/qcom/display-caf/msm8952
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-15.0 packages/resources/devicesettings
 git clone https://github.com/LineageOS/android_external_bson -b cm-14.1 external/bson
+cd device/xiaomi/kenzo
+rm -rf cardinal.mk
+rm -rf cardinal.dependencies
+gdrive download 1aLVHyJRID4cDXApqX3dXUrfvVi1LczX3
+cd ..
+cd msm8956-common
+rm -rf cardinal.dependencies
+cd ..
+cd ..
+cd ..
+. build/envsetup.sh
+lunch aosp_kenzo-eng
