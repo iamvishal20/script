@@ -1,7 +1,7 @@
 git clone https://github.com/irvin016/device_xiaomi_kenzo -b oreo-mr1 device/xiaomi/kenzo
 git clone https://github.com/irvin016/device_xiaomi_msm8956-common -b oreo-mr1 device/xiaomi/msm8956-common
 git clone https://github.com/irvin016/kernel_xiaomi_msm8956 -b oreo-mr1 kernel/xiaomi/msm8956
-git clone https://github.com/irvin016/proprietary_vendor_xiaomi -b oreo-mr1 vendor/xiaomi
+git clone https://github.com/irvin016/proprietary_vendor_xiaomi-1 -b oreo vendor/xiaomi
 git clone https://github.com/AmolAmrit/android_hardware_cyanogen -b oreo hardware/cyanogen
 rm -rf hardware/qcom/audio-caf/msm8952
 rm -rf hardware/qcom/display-caf/msm8952
